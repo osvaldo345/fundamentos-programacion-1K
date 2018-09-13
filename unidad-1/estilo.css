@@ -1,0 +1,27 @@
+
+p,li,h1 { /*selector de elemento (HTML) */
+color: red;
+width: 500px;
+border:  1px solid black;
+}
+
+#niveles {  /* selector de identidad (id) */
+    background-color: burlywood;
+    font-family: 'Ruslan Display', cursive;
+}
+
+.sin-borde { /* selector de clase (class) */
+    color: orange;
+    background-color: azure;
+    border: 0px;
+}
+
+#niveles:hover { /* selector de pseudo-clase */
+    background-color: aqua;
+    color: black;
+}
+
+label[for] {
+    color: royalblue;
+}
+

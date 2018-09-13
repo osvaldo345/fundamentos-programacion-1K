@@ -7,6 +7,8 @@
         <title>fundamentos de HTML</title>
         <meta name="viewport" content="width=device-width,
         initial-scale=1">
+        <link href="estilo.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
     </head>
     <body>
         <h1>Elementos basicos de HTML</h1>
@@ -16,16 +18,16 @@
         </p>
 
         <h2>Encabezados</h2>
-        <p>
+        <p id="niveles">
             Existen 6 niveles y se debe respetar el orden en el que se presentan.
         </p>
 
-        <h2>Listas</h2>
+        <h2 class="sin-borde">Listas</h2>
         <h3>Listas desordenadas </h3>
         <ul>
-            <li>c++</li>
-            <li>C#</li>
-            <li>java</li>
+            <li class="sin-borde">c++</li>
+            <li class="sin-borde">C#</li>
+            <li class="sin-borde">java</li>
         </ul>
         <h3>Listas ordenadas</h3>
         <ol>
@@ -58,7 +60,7 @@
         <form>
             <div>
                 <label for="nombre" >Nombre</label>
-                <input type="text" id="nombre" />
+                <input type="text" id="nombre" maxlength="10" size="50" />
             </div>
             <div>
                 <label for="email"> Email: </label>
@@ -67,6 +69,14 @@
             <div>
                 <label for="comentarios">comentarios: </label>
                 <textarea id="comentarios"></textarea>
+            </div>
+            <div>
+                <label for="clave">contraseña: </label>
+                <input type="password" id="clave" />
+            </div>
+            <div>
+                <label for="color">Elige un color: </label>
+                <input type="color" id="color" />
             </div>
             <div>
                 <button id="enviar">Enviar</button>
