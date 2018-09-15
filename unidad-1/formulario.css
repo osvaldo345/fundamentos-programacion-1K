@@ -1,0 +1,52 @@
+h2 {
+    background-color: darkcyan;
+    width: 500px;
+    text-align: center;
+    margin-left: 0px;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    height: 35px;
+}
+
+
+form {
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    margin-left: 250px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+html {
+    background-color: gray;
+}
+
+button {
+    color: white;
+    background-color: darkcyan;
+    border-radius: 5px 5px 5px 5px;
+    width: 100px;
+    height: 35px;
+}
+
+input {
+    color: rgb(60, 61, 57);
+    background-color: rgb(179, 199, 173);
+    margin: 0px 0px 5px 0px;
+    border-radius: 5px 5px 5px 5px;
+    width: 450px;
+    height: 30px;
+    border:none;
+}
+
+textarea {
+    color: rgb(60, 61, 57);
+    background-color: rgb(179, 199, 173);
+    margin: 0px 0px 5px 0px;
+    border-radius: 5px 5px 5px 5px;
+    width: 450px;
+    height: 70px;
+    border: none;
+}
